@@ -1,13 +1,14 @@
-import { Text, View, TextInput } from 'react-native';
-import { styles } from './style';
+import {View,Text,Image} from "react-native";
+import illustration from "../../assets/illustration.png"
 
 
 export function SignInin() {
  
   return (
-    <View style={styles.container}>
+        <View>
+        <Image source={} />
+        </View>
 
-    </View>
   );
 }
 
